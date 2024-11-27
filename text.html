@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botões</title>
+  <style>
+    body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 1.5em;
+}
+
+.location {
+  color: #8bc34a;
+  font-size: 0.9em;
+}
+
+.bio {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.buttons .button {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.buttons .button:hover {
+  background-color: #555;
+}
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="Profile" class="profile-pic">
+    <h1>Jessica Randall</h1>
+    <p class="location">London, United Kingdom</p>
+    <p class="bio">"Front-end developer and avid reader."</p>
+    <div class="buttons">
+      <a href="#" class="button">GitHub</a>
+      <a href="#" class="button">Frontend Mentor</a>
+      <a href="#" class="button">LinkedIn</a>
+      <a href="#" class="button">Twitter</a>
+      <a href="#" class="button">Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
